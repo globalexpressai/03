@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US" prefix="og: https://ogp.me/ns#">
 <head>
+	<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("a").forEach(a => {
+    a.removeAttribute("href");
+    a.style.pointerEvents = "none";
+  });
+});
+</script>
+
 	<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MMLJL5Z3J"></script>
 <script>
